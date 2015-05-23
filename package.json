@@ -1,0 +1,19 @@
+{
+  "name": "lab45",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorgeordovi/lab45.git"
+  },
+  "author": "jorge ordonez",
+  "license": "mit std",
+  "bugs": {
+    "url": "https://github.com/jorgeordovi/lab45/issues"
+  },
+  "homepage": "https://github.com/jorgeordovi/lab45"
+}

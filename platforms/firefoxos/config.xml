@@ -19,4 +19,5 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <permission description="Required for accessing user location." name="geolocation" />
 </widget>

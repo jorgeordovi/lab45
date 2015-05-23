@@ -4,10 +4,24 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<permission description=\"Required for accessing user location.\" name=\"geolocation\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.app.lab45"
+        },
+        "org.apache.cordova.geolocation": {
             "PACKAGE_NAME": "com.app.lab45"
         }
     },
